@@ -1,0 +1,29 @@
+<h1>Burger Maker!</h1>
+
+<h2>Create your own Delicious Burger!</h2>
+
+<!-- Pass in data from server.js -->
+
+
+<ul>
+  {{#each burgers}}
+    {{#unless devoured}}
+      {{> bburger/burger-block devoured=false}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<ul>
+  {{#each burgers}}
+    {{#if devoured}}
+      {{> bburger/burger-block devoured=true}}
+    {{/if}}
+  {{/each}}
+</ul>
+
+
+
+  <form  method="POST"  action="/create">
+      <textarea type="text" id="bu" name="burger_name" rows="6" cols="40"></textarea>
+  </form>
+  <button  type="button"  class=" create btn btn-primary btn-lg">Create</button>
