@@ -11,7 +11,7 @@ Then , you can choose to keep or "devoured it " which is deleting the burger fro
 
 
 
- [![Demo Burger Creator](https://img.youtube.com/vi/xQZ3DRiySDQ.jpg)](https://youtu.be/xQZ3DRiySDQ)
+ [![Demo Burger Creator](https://img.youtube.com/vi/xQZ3DRiySDQ/0.jpg)](https://youtu.be/xQZ3DRiySDQ)
 
 
 ### Tech used :
